@@ -1,10 +1,7 @@
-// C# program to print Hello World!
 using System;
 
-// namespace declaration
-namespace CountDigitsClass {
+namespace CountDigitsNameSpace {
 	
-	// Class declaration
 	class CountDigits {
 		
         public int count(int x) {
@@ -16,7 +13,6 @@ namespace CountDigitsClass {
             return res;
         }
 
-		// Main Method
 		static void Main(string[] args) {
 		    CountDigits countDigits = new CountDigits(); // Creating Object  
 			Console.WriteLine(countDigits.count(123));

@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import static java.lang.System.out;
 
-class GFG {
+class CountDigitsClass {
     static int countDigits(int x) {
         int res = 0;
         while(x > 0) {
