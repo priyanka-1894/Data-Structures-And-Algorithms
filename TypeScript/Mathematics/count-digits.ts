@@ -1,5 +1,5 @@
 function countDigitsTs(x: number): number {
-    let res = 0;
+    let res: number = 0;
     while(x > 0) {
         x = (x - x % 10) / 10;;
         res++;

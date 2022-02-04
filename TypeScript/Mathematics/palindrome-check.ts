@@ -1,9 +1,9 @@
 function isPalindromeTS(num: number): string {
-    let rev = 0;
-    let temp = num;
+    let rev: number = 0;
+    let temp: number = num;
 
     while(temp != 0) {
-        let ld = temp % 10;
+        let ld: number = temp % 10;
         rev = rev * 10 + ld;
         temp = (temp - temp % 10) / 10;
     }
